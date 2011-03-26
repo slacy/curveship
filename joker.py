@@ -120,7 +120,7 @@ MESSAGE = {
 
 
 class StartupError(Exception):
-    'Exception occuring during session startup or in loading a spin.'
+    'Exception occurring during session startup or in loading a spin.'
     def __init__(self, msg):
         self.msg = msg
         Exception.__init__(self, msg)
@@ -166,14 +166,14 @@ def load_fiction(file_name, required, defaults):
 
 def load_spin(existing_spin, spin_file):
     'Loads one spin file and returns an updated spin.'
-    focalizer = existing_spin['focalizer']
-    commanded = existing_spin['commanded']
     new_file = load_file(spin_file, [], discourse_model.SPIN_DEFAULTS, 'spin')
     if hasattr(new_file, 'spin'):
         existing_spin = update_spin(existing_spin, new_file.spin)
     return existing_spin
 
 def update_spin(existing_spin, new_spin):
+    focalizer = existing_spin['focalizer']
+    commanded = existing_spin['commanded']
     for function in ['focalizer', 'commanded', 'narrator', 'narratee']:
         if function in new_spin and new_spin[function] == '@focalizer':
             new_spin[function] = focalizer
@@ -239,7 +239,7 @@ def report(kind, *params):
 
 
 def set_role(role, tokens, world, discourse):
-    'Nams or change a narrative role, such as focalzier.'
+    'Name or change a narrative role, such as focalizer.'
     if len(tokens) == 2:
         report_text = report('is', discourse.spin[role], role)
     elif len(tokens) > 2 and tokens[2] == 'none':
