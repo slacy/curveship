@@ -1,5 +1,9 @@
 ## NEXT STEPS for Curveship ##
 
+<> Always add an actor to the actor's own concept, even if the actor appears
+in a compartment initially. Otherwise, a PC in a dark compartment will lead
+to a crash.
+
 <> Implement syllepsis, narration by category, which will apply very well to
 recounting:
 "You wandered to many places: From X to Y, from there back to X, ..."

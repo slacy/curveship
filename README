@@ -181,7 +181,7 @@ Simulated Bank Robbery:
 
     python curveship.py fiction/robbery.py
 
-Add the names of any span files afterwards to apply those spins. For instance:
+Add the names of any spin files afterwards to apply those spins. For instance:
 
     python curveship.py fiction/cplus.py spin/valley.py spin/retrograde.py
 
