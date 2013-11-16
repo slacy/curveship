@@ -9,7 +9,7 @@ __status__ = 'Development'
 from random import random, randint, choice
 
 from item_model import Actor, Door, Room, SharedThing, Substance, Thing
-from action_model import Behave, Configure, Modify, Sense
+from curveship.action_model import Behave, Configure, Modify, Sense
 from joker import update_spin
 from curveship import can
 

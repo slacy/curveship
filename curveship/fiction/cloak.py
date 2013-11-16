@@ -10,7 +10,7 @@ __version__ = '0.5.0.0'
 __status__ = 'Development'
 
 from item_model import Actor, Room, Thing
-from action_model import Behave, Modify, Sense
+from curveship.action_model import Behave, Modify, Sense
 from curveship import can
 import when
 
