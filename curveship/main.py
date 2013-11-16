@@ -14,7 +14,7 @@ import optparse
 
 from curveship import clarifier
 from curveship import command_map
-from curveship import discourse_model
+from curveship from curveship import discourse_model
 from curveship import joker
 from curveship import microplanner
 from curveship import preparer

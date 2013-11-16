@@ -11,7 +11,7 @@ import re
 import types
 
 from curveship import can
-import discourse_model
+from curveship import discourse_model
 
 def check_attributes(identifier, required, impossible, attributes):
     'Raise errors if required attributes are missing or impossible ones present.'

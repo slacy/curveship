@@ -10,7 +10,7 @@ import math
 import re
 import types
 
-import input_model
+from curveship import input_model
 
 class SpecialTime(object):
     'Adapted from extremes.py, based on PEP 326.'

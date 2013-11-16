@@ -10,7 +10,7 @@ import os
 import pickle
 import re
 
-import discourse_model
+from curveship import discourse_model
 import microplanner
 import reply_planner
 
