@@ -9,7 +9,7 @@ __status__ = 'Development'
 import copy
 import operator
 
-import can
+from curveship import can
 import item_model
 
 def check_for_reserved_tags(items):

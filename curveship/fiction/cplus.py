@@ -11,7 +11,7 @@ __status__ = 'Development'
 
 from item_model import Actor, Thing, Substance
 from action_model import Modify
-import can
+from curveship import can
 
 import fiction.cloak
 

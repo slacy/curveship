@@ -7,7 +7,7 @@ __version__ = '0.5.0.0'
 
 from item_model import Actor, Room, Thing
 from action_model import Modify, Sense
-import can
+from curveship import can
 import when
 
 discourse = {

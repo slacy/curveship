@@ -10,7 +10,7 @@ import random
 import re
 import types
 
-import can
+from curveship import can
 import discourse_model
 
 def check_attributes(identifier, required, impossible, attributes):

@@ -11,7 +11,7 @@ from random import random, randint, choice
 from item_model import Actor, Door, Room, SharedThing, Substance, Thing
 from action_model import Behave, Configure, Modify, Sense
 from joker import update_spin
-import can
+from curveship import can
 
 discourse = {
 

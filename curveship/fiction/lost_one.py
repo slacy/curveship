@@ -15,7 +15,7 @@ import time
 
 from item_model import Actor, Thing
 from action_model import Behave, Sense
-import can
+from curveship import can
 
 import fiction.plaza
 

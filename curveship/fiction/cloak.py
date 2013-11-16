@@ -11,7 +11,7 @@ __status__ = 'Development'
 
 from item_model import Actor, Room, Thing
 from action_model import Behave, Modify, Sense
-import can
+from curveship import can
 import when
 
 discourse = {
